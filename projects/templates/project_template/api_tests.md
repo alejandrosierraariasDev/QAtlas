@@ -1,15 +1,11 @@
 #  API Test Coverage
 
-<div align="center">
 
-**Service Contract Testing & Endpoint Validation**
-
-</div>
 
 ##  Covered Endpoints
 
-| Endpoint |  Method | 💨 Smoke |  Regression |  Automated |  Notes |
-|----------|-----------|----------|--------------|-------------|----------|
+| Endpoint |  Method |  Regression |  Automated |  Notes |
+|----------|-----------|--------------|-------------|----------|
 | `/api/v1/users` | GET |  |  |  | User retrieval |
 | `/api/v1/users` | POST |  |  |  | User creation |
 | `/api/v1/users/{id}` | GET |  |  |  | Single user |
@@ -21,7 +17,6 @@
 
 - **Total Endpoints:** XX
 - **Automated Coverage:** XX%
-- **Smoke Test Coverage:** XX%
 - **Regression Coverage:** XX%
 
 ---
@@ -51,24 +46,9 @@
 
 | Environment | 🌐 URL | 🔐 Auth |  Test Data |  Execution |
 |-------------|-------|--------|-------------|-------------|
-| **Development** | `[URL]` | `[Type]` | `[Source]` | `[Schedule]` |
-| **Staging** | `[URL]` | `[Type]` | `[Source]` | `[Schedule]` |
-| **Production** | `[URL]` | `[Type]` | `[Source]` | `[Schedule]` |
-
----
-##  Execution Schedule
-
-| Test Type | Frequency |  Trigger |  Reporting | 👤 Owner |
-|------------|-----------|-----------|-------------|----------|
-| **Smoke Tests** | Per commit | Code change | Slack/Email | QA Owner |
-| **Regression** | Daily | Scheduled | Dashboard | QA Owner |
-| **Contract Tests** | Per release | Version bump | Report | Tech Lead |
-| **Performance** | Weekly | Scheduled | Grafana | Tech Lead |
+| **Local** | `http://localhost:3000` | Basic Auth | Local SQLite | On-demand |
+| **Dev** | `https://dev-api.company.com` | OAuth + Test Users | Factory-generated | Per commit |
+| **Pro** | `https://api.company.com` | Read-only Service Account | None | Smoke tests only |
 
 ---
 
-<div align="center">
-
-**API testing is not just about testing interfaces, it's about validating contracts.**
-
-</div>

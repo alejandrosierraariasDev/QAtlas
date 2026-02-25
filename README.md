@@ -1,6 +1,6 @@
 #  QAtlas
 
-<div align="center">
+<div align="center ">
 
 [![Documentation](https://img.shields.io/badge/Documentation-Markdown-blue)](https://www.markdownguide.org/)
 [![Version](https://img.shields.io/badge/Version-1.0.0-green)](https://semver.org/)
@@ -42,9 +42,8 @@ QAtlas/
 │   │   └── 📂 project_template/
 │   │       ├── 📄 README.md
 │   │       ├── 📄 api_tests.md
-│   │       ├── 📄 ui_tests.md
 │   │       ├── 📄 integration_tests.md
-│   │       ├── 📄 mobile_tests.md
+│   │       ├── 📄 regression_tests.md
 │   │       └── 📄 ...
 │   └── 📂 [your-project]/  # Individual project folders
 ```

@@ -1,10 +1,5 @@
 #  Integration Testing
 
-<div align="center">
-
-**External System Integration & Data Flow Validation**
-
-</div>
 
 ##  Overview
 
@@ -37,8 +32,3 @@ Integration testing validates that different components and external systems wor
 
 ---
 
-<div align="center">
-
-**Integration testing is where the rubber meets the road - it validates that your system works in the real world.**
-
-</div>

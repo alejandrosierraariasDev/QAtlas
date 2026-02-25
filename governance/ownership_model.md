@@ -23,8 +23,3 @@ The **QA** is responsible for:
 ---
 
 
-<div align="center">
-
-**Ownership is not about titles, it's about accountability.**
-
-</div>

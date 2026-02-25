@@ -2,7 +2,7 @@
 
 <div align="center">
 
-** Quick Start Guide for New Projects**
+**Quick Start Guide for New Projects**
 
 </div>
 
@@ -63,8 +63,3 @@ Update documentation **immediately** when:
 
 
 
-<div align="center">
-
-**Good documentation is like good code - it's read more than it's written.**
-
-</div>

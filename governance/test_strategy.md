@@ -23,10 +23,10 @@ Each project **MUST** maintain up-to-date documentation for:
 
 | Document Type |  Content |  Update Frequency | 👤 Owner |
 |---------------|------------|-------------------|----|
-|  **Functional Coverage** | User flows, business rules | Per feature | QA Owner |
-|  **API Coverage** | Endpoints, contracts | Per API change | QA Owner |
+|  **API Coverage** | Endpoints, contracts, schemas | Per API change | QA Owner |
 |  **Integration Coverage** | External systems, data flows | Per integration | QA Owner  |
-|  **Known Risks** | Risk register, mitigations | Per review | QA Owner  |
+|  **Regression Coverage** | Web & Mobile regression tests | Per feature | QA Owner |
+
 
 ---
 
@@ -45,8 +45,3 @@ Each project documentation **must be reviewed quarterly** to ensure:
 
 
 
-<div align="center">
-
-**Testing is not a phase, it's a continuous process.**
-
-</div>
